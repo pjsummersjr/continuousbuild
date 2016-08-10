@@ -10,5 +10,7 @@ based on check-ins to your GitHub repo.
 This example uses a NodeJS and a simple ExpressJS website based on the express yoeman template.
 * npm install -g yo
 * npm install -g express
-* yo express
-** Create new directory: y
+* yo express (feel free to choose the settings that are most comfortable to you)
+
+    
+

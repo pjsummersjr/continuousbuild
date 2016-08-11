@@ -11,13 +11,15 @@ var exphbs  = require('express-handlebars');
 var routes = require('./routes/index');
 var users = require('./routes/user');
 
+require('dotenv').load();
+
 var app = express();
 
 var env = process.env.NODE_ENV || 'development';
 app.locals.ENV = env;
 app.locals.ENV_DEVELOPMENT = env == 'development';
 
-process.env.APP_KEY="This is the dev key";
+
 
 // view engine setup
 

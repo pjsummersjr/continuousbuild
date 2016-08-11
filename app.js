@@ -13,12 +13,11 @@ var users = require('./routes/user');
 
 var app = express();
 
-//process.env.PORT = 3001;
-
-
 var env = process.env.NODE_ENV || 'development';
 app.locals.ENV = env;
 app.locals.ENV_DEVELOPMENT = env == 'development';
+
+process.env.APP_KEY="This is the dev key";
 
 // view engine setup
 

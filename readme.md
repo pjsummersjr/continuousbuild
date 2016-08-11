@@ -19,7 +19,7 @@ This example uses a NodeJS and a simple ExpressJS website based on the express y
     * The CLI will then ask you to choose a repo to link to
 
 ## NOTES!
-* Enable logging with the Azure log streaming service to detect issues: azure site log tail <site name?
+* Enable logging with the Azure log streaming service to detect issues: azure site log tail <site name>
 * I ended up copying the contents of bin/www to ./server.js and modifying package.json to call node server.js instead. I was getting an error in the Azure website related to relative paths from bin/www and I am more familiar with the server.js approach.
 
 ## Resources

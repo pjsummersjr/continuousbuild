@@ -11,7 +11,7 @@ var exphbs  = require('express-handlebars');
 var routes = require('./routes/index');
 var users = require('./routes/user');
 
-require('dotenv').load();
+require('dotenv').load({silent:true});
 
 var app = express();
 
